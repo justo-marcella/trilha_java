@@ -16,5 +16,11 @@ public class TestaMetodo {
         };
         System.out.println(contaDoMarcos.saldo);
         System.out.println(contaDaMarcella.saldo);
+
+        contaDaMarcella.titular = "Marcella Justo";
+        contaDoMarcos.titular = "Marcos Paulo Albuquerque";
+
+        System.out.println(contaDaMarcella.titular);
+        System.out.println(contaDoMarcos.titular);
     }
 }
